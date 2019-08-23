@@ -1,64 +1,66 @@
 /*---Media Queries --*/
-@media (max-width: 992px) {
 
-  }
-@media (max-width: 768px) {
-  
-}
-@media (max-width: 576px) {
-  
-}
+@media (max-width: 992px) {}
 
-#slides{
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
+
+#slides {
     text-align: center;
-    position:relative;
-    
-    
+    position: relative;
+
+
 }
+
 body {
-    margin:10px;
+    margin: 10px;
     font-family: 'Fugaz One', sans-serif, cursive;
     color: #02040F!important;
     background-color: #E6C79C;
-    background-image:url('./assets/images/color-swirl.jpg');
+    background-image: url('./assets/images/color-swirl.jpg');
     background-repeat: no-repeat;
-  background-attachment: fixed;
+    background-attachment: fixed;
 }
+
 .navbar-brand {
     font-family: 'Monoton', cursive;
     color: #02040F!important;
 }
+
 .navbar-custom {
     background-color: #E5E9EC;
     border-bottom-style: groove;
-    border-bottom-color: #2222 ;
+    border-bottom-color: #2222;
 }
+
 .carousel-indicators li {
     width: 10px;
     height: 10px;
     border-radius: 100%;
 }
+
 .jumbotron {
-  background-color: transparent;  
+    background-color: transparent;
 }
+
 .rounded-corners {
- border-radius: 50%;
- padding-right:25px;
- border-style: 2px solid #fff!important;
+    border-radius: 50%;
+    padding-right: 25px;
+    border-style: 2px solid #222222!important;
 }
+
 .container-fluid .biographics {
-    background-color:#E5E9EC;
-    padding:15px;
+    background-color: #E5E9EC!important;
+    padding: 15px;
     border: 5px solid #222222;
+    border-radius: 20%;
+    padding-right: 25px;
+    border-style: 2px solid #fff!important;
     /*----background-color:rgb(227, 218, 36, .5)!important;---*/
-    
-  
-    
-    
-    
 }
-.biographics {
-}  
+
+.biographics {}
 
 
 /*
@@ -77,4 +79,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
