@@ -1,0 +1,80 @@
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+#slides{
+    text-align: center;
+    position:relative;
+    
+    
+}
+body {
+    margin:10px;
+    font-family: 'Fugaz One', sans-serif, cursive;
+    color: #02040F!important;
+    background-color: #E6C79C;
+    background-image:url('./assets/images/color-swirl.jpg');
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.navbar-brand {
+    font-family: 'Monoton', cursive;
+    color: #02040F!important;
+}
+.navbar-custom {
+    background-color: #E5E9EC;
+    border-bottom-style: groove;
+    border-bottom-color: #2222 ;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.jumbotron {
+  background-color: transparent;  
+}
+.rounded-corners {
+ border-radius: 50%;
+ padding-right:25px;
+ border-style: 2px solid #fff!important;
+}
+.container-fluid .biographics {
+    background-color:#E5E9EC;
+    padding:15px;
+    border: 5px solid #222222;
+    /*----background-color:rgb(227, 218, 36, .5)!important;---*/
+    
+  
+    
+    
+    
+}
+.biographics {
+}  
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
