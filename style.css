@@ -14,6 +14,7 @@
 }
 
 body {
+    text-align:center;
     margin: 10px;
     font-family: 'Fugaz One', sans-serif, cursive;
     color: #02040F!important;
@@ -23,39 +24,52 @@ body {
     background-attachment: fixed;
 }
 
-.navbar-brand {
+.navbar-brand a {
     font-family: 'Monoton', cursive;
-    color: #02040F!important;
+    color:#050517!important;
 }
 
 .navbar-custom {
-    background-color: #E5E9EC;
+    color:#050517;
+    background-color: rgba(170, 65, 18, .8);
     border-bottom-style: groove;
     border-bottom-color: #2222;
 }
-
+.carousel-inner img{
+    border-radius:50%;
+    border: 5px solid #E5E9EC;
+}
 .carousel-indicators li {
     width: 10px;
     height: 10px;
     border-radius: 100%;
+    border-color: #22222
 }
 
 .jumbotron {
-    background-color: transparent;
+    background-color: rgba(199, 186, 159, .8);
+    margin-top:175px;
+    border:2px solid rgba(199, 186, 159, .4);
+    padding:10px;
+    border-radius: 25%;
 }
-
+.landing {
+     background-color: rgba(199, 186, 159, .5);
+     border:2px solid rgba(199, 186, 159, .4);
+     border-radius: 18%;
+}
 .rounded-corners {
-    border-radius: 50%;
+    border-radius: 25%;
     padding-right: 25px;
     border-style: 2px solid #222222!important;
 }
 
 .container-fluid .biographics {
-    background-color: #E5E9EC!important;
+    background-color: rgba(230, 199, 156, .9)!important;
     padding: 15px;
     border: 5px solid #222222;
     border-radius: 20%;
-    padding-right: 25px;
+    margin-top: 25px;
     border-style: 2px solid #fff!important;
     /*----background-color:rgb(227, 218, 36, .5)!important;---*/
 }
