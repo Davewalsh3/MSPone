@@ -25,27 +25,7 @@
     text-align: center;
     position: relative;
 }
-#tour p {
-    color:#fff;
-}
-#tour h3 {
-    border:2px solid #fff;
-}
 
-.bg-1 {
-     background-color: rgba(159, 85, 18, .8);
-    color: #bdbdbd;
-    margin-top: 150px;
-}
-
-.bg-1 h3 {
-    color: #02040F;
-    margin-bottom: 15px;
-}
-
-.bg-1 p {
-    font-style: italic;
-}
 
 body {
     text-align:center;
@@ -65,7 +45,7 @@ body {
 
 .navbar-custom {
     color:#050517;
-    background-color: rgba(170, 65, 18, .8);
+    background-color: rgb(233, 233, 25, .95);
     border-bottom-style: groove;
     border-bottom-color: #2222;
 }
@@ -83,13 +63,13 @@ body {
 .jumbotron {
     background-color: rgba(199, 186, 159, .8);
     margin-top:175px;
-    border:2px solid rgba(199, 186, 159, .4);
+    border: 2px solid #fff!important;;
     padding:10px;
     border-radius: 25%;
 }
 .landing {
-     background-color: rgba(199, 186, 159, .5);
-     border:2px solid rgba(199, 186, 159, .4);
+     background-color: rgba(233, 233, 25, .7);
+     border: 2px solid #fff!important;;
      border-radius: 18%;
 }
 .rounded-corners {
@@ -101,16 +81,69 @@ body {
 .container-fluid .biographics {
     background-color: rgba(230, 199, 156, .9)!important;
     padding: 15px;
-    border: 5px solid #222222;
     border-radius: 20%;
     margin-top: 25px;
-    border-style: 2px solid #fff!important;
+    border: 2px solid #fff!important;
     /*----background-color:rgb(227, 218, 36, .5)!important;---*/
 }
 
 .biographics {}
 
+#tour h3  {
+    padding:30px;
+    margin-bottom:35px;
+}    
 
+.bg-1 {
+    background: rgba(157, 150, 81, .96);
+    color: #bdbdbd;
+    margin-top: 150px;
+    border:2px solid #fff;
+    height:50%;
+}
+
+.bg-1 h3 {
+    color:#050517;
+    border-radius: 10%;
+}
+
+.bg-1 p {
+    font-style: italic;
+    color:#E1E5F2;
+    margin:0;
+}
+.bg-1 .text-center {
+    color:#00072D;
+}
+
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+   
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    
+    
+}
+.list-group .list-group-item  {
+    margin-bottom:20px;
+    color:#686963;
+}
+
+#contact {
+    margin-top:100px;
+    background-color:rgb(233, 233, 25, .7)!important ;
+    border:2px solid #F79256;
+}
+#contact h3  {
+    padding:25px;
+}
+#contact p  {
+    padding:10px;
+}
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
