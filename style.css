@@ -3,7 +3,11 @@
 @media (max-width: 992px) {
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    #tour .bg-1 {
+    padding:80px ;
+}
+}
 
 @media (max-width: 576px) {
 .carousel-item,
@@ -62,19 +66,25 @@ body {
 }
 
 .jumbotron {
+    font-family: 'Fugaz One', cursive;
+     font-size: 14px;
     background-color: rgba(154, 147, 35, .66);
     margin-top:175px;
     border: 2px solid #fff!important;;
-    padding:10px;
+    padding:25px;
     border-radius: 25%;
 }
 .news-header {
-    margin-top:50px;
+    margin-top:100px;
+    margin-bottom:85px;
     border-radius: 50%;
     border: 2px solid #fff!important;
     background-color: rgba(233, 233, 25, .95);
 }
 .landing {
+     font-family: 'Hepta Slab', serif;
+     font-size: 14px;
+     line-height: 1.42857143;
      background-color:rgba(233, 233, 25, .7) ;
      border: 2px solid #fff!important;;
      border-radius: 18%;
@@ -91,30 +101,34 @@ body {
     border-style: 2px solid #272727!important;
 }
 .bio-header {
-    margin-top:50px;
+    margin-top:80px;
     border-radius: 50%;
     border: 2px solid #fff!important;
     background-color: rgba(159, 87, 19, .9);
 }
-.container-fluid .biographics {
+.biographics {
     background-color: rgba(159, 87, 19, .8)!important;
     padding: 15px;
     border-radius: 20%;
     margin-top: 25px;
+    margin-bottom:80px;
     border: 2px solid #fff!important;
     /*----background-color:rgb(227, 218, 36, .5)!important;---*/
 }
 
 .biographics {}
-
+#tour > div > ul {
+    padding:30px;
+}
 .live-header {
     margin-top:150px;
-    margin-bottom:15px;
+    margin-bottom:35px;
     border-radius: 50%;
     border: 2px solid #fff!important;
     background-color: rgba(157, 150, 81, .96);
 }
-   
+ 
+  
 
 .bg-1 {
     background: rgba(157, 150, 81, .96);
@@ -150,6 +164,7 @@ body {
     border-bottom-left-radius: 0;
     
     
+    
 }
 .list-group .list-group-item  {
     margin-bottom:20px;
@@ -157,16 +172,21 @@ body {
 }
 
 #contact {
-    margin-top:100px;
+    margin-top:30px;
     background-color:rgb(233, 233, 25, .7)!important ;
-    border:2px solid #F79256;
+    border:2px solid #fff;
 }
-#contact h3  {
-    padding:25px;
+#contact > h3 {
+    padding:35px;
 }
-#contact p  {
-    padding:10px;
+.contact-header {
+    margin-top:150px;
+    margin-bottom:20px;
+    border-radius: 50%;
+    border: 2px solid #fff!important;
+    background-color: rgb(233, 233, 25, .7);
 }
+
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
