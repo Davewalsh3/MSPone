@@ -8,12 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Hepta+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
 <body>
 
     <!---------------Navbar--------------------->
+    <div class="alert alert-primary">
+  <strong> Complete your collection with the Monkees New Album, Available </strong><a href="#" class="alert-link">Now!</a>
+</div>
     <nav class="navbar navbar-light navbar-expand-sm navbar-custom navbar-fixed-top" id="navbarMainLink">
         <div class="container-fluid">
             <a href="/" class="navbar-brand">The Monkees</a>
@@ -45,7 +49,7 @@
 
     <hr>
     <!---------------Carousel--------------------->
-
+<section>
     <div id="slides" class="carousel slide " data-ride="carousel">
         <ul class="carousel-indicators">
             <li data-target="#slides" data-slide-to="0" class="active"></li>
@@ -87,7 +91,7 @@
     <!-------------------------------------------->
     <hr class="my-4">
 
-    
+
 
     <!---------------Landing--------------------->
     <div class="container padding">
@@ -115,7 +119,7 @@
     <div class="container padding">
         <div class="row bio-header text-center">
             <div class="col-12">
-               <h2 class="display-4"> Biographics</h2>
+                <h2 class="display-4"> Biographics</h2>
             </div>
         </div>
     </div>
@@ -172,19 +176,19 @@
             </div>
         </div>
     </div>
-     <div id="tour" class="bg-1 rounded-corners">
-                <div class="container">
-                    
-                    <p class="text-center">Hey, Hey! The Monkees may be coming to YOUR town very soon... Check out these dates for Michael Nesmith, Micky Dolenz and The Monkees upcoming concerts<br></p>
-                    <ul class="list-group">
-                        <li class="list-group-item">1/17/19--Seattle, WA-- Neptune Theatre <span class="label label-danger">Sold Out!</span></li>
-                        <li class="list-group-item">1/19/19--Grants Pass, OR-- Rogue Theatre <span class="label label-danger">Sold Out!</span></li>
-                        <li class="list-group-item">1/20/19--Sacramento, CA-- The Sofia, home of B Street Theatre <span class="badge"></span></li>
-                    </ul>
-                </div>
-     </div>
- 
- <!-------------------------------------------->
+    <div id="tour" class="bg-1 rounded-corners">
+        <div class="container">
+
+            <p class="text-center">Hey, Hey! The Monkees may be coming to YOUR town very soon... Check out these dates for Michael Nesmith, Micky Dolenz and The Monkees upcoming concerts<br></p>
+            <ul class="list-group">
+                <li class="list-group-item">1/17/19--Seattle, WA-- Neptune Theatre <span class="label label-danger">Sold Out!</span></li>
+                <li class="list-group-item">1/19/19--Grants Pass, OR-- Rogue Theatre <span class="label label-danger">Sold Out!</span></li>
+                <li class="list-group-item">1/20/19--Sacramento, CA-- The Sofia, home of B Street Theatre <span class="badge"></span></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-------------------------------------------->
     <hr class="my-4">
 
     <!---------------Contact--------------------->
@@ -195,39 +199,86 @@
             </div>
         </div>
     </div>
-                <div id="contact" class="container rounded-corners ">
-                    <p class="text-center"><em>Old (or even a new) Fan? Drop us a mail</em></p>
+    <div id="contact" class="container rounded-corners ">
+        <p class="text-center"><em>Old (or even a new) Fan? Drop us a mail</em></p>
 
-                    <div class="row">
-                        <div class="col-md-4">
+        <div class="row">
+            <div class="col-md-4">
 
-                            <p><span class="glyphicon glyphicon-map-marker"></span>Los Angeles, CA 90036,USA</p>
-                            <p><span class="glyphicon glyphicon-phone"></span>Phone:(323) 939-1188Fax: (323) 939-0630</p>
-                            <p><span class="glyphicon glyphicon-envelope"></span>Email: MickeyD@Monkeemail.com</p>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="row">
-                                <div class="col-sm-6 form-group">
-                                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-                                </div>
-                                <div class="col-sm-6 form-group">
-                                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                                </div>
-                            </div>
-                            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-                            <br>
-                            <div class="row">
-                                <div class="col-md-12 form-group">
-                                    <button class="btn pull-right" type="submit">Send</button>
-                                </div>
-                            </div>
-                        </div>
+                <p><span class="glyphicon glyphicon-map-marker"></span>Los Angeles, CA 90036,USA</p>
+                <p><span class="glyphicon glyphicon-phone"></span>Phone:(323) 939-1188Fax: (323) 939-0630</p>
+                <p><span class="glyphicon glyphicon-envelope"></span>Email: MickeyD@Monkeemail.com</p>
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
                     </div>
-                    <br>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                <br>
+                <div class="row">
+                    <div class="col-md-12 form-group">
+                        <button class="btn pull-right" type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+</section>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <footer class="container-fluid">
+        
+            <div class="col-12">
+                <h5 class="uppercase general-sub">Social</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 </html>
