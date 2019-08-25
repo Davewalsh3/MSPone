@@ -1,6 +1,6 @@
 /*---Media Queries --*/
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
 }
 
 @media (max-width: 768px) {
@@ -24,9 +24,11 @@
  .jumbotron{
    margin-top:100px;
 }
-.alert .strong a {
-    font-family: 'Hepta Slab', serif;;
+
 }
+.alert {
+    font-family: 'Viga', sans-serif;
+    font-size:16px;
 }
 #slides {
     text-align: center;
@@ -37,16 +39,16 @@
 body {
     text-align:center;
     margin: 10px;
-    font-family: 'Fugaz One', sans-serif, cursive;
+    font-family: 'Viga', sans-serif;
     color: #02040F!important;
     background-color: #E6C79C;
     background-image: url('./assets/images/color-swirl.jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
 }
 
 .navbar-brand a {
-    font-family: 'Monoton', cursive;
+    font-family: 'Fugaz One', cursive;
     color:#050517!important;
 }
 
@@ -71,7 +73,7 @@ body {
     font-family: 'Fugaz One', cursive;
      font-size: 14px;
     background-color: rgba(154, 147, 35, .66);
-    margin-top:175px;
+    margin-top:130px;
     border: 2px solid #fff!important;;
     padding:25px;
     border-radius: 25%;
@@ -84,7 +86,7 @@ body {
     background-color: rgba(233, 233, 25, .95);
 }
 .landing {
-     font-family: 'Hepta Slab', serif;
+     font-family: 'Viga', sans-serif;
      font-size: 14px;
      line-height: 1.42857143;
      background-color:rgba(233, 233, 25, .7) ;
@@ -94,7 +96,7 @@ body {
      margin-bottom:170px;
 }
 .landing p {
-    padding:20px;
+    padding:30px;
 }
 
 .rounded-corners {
@@ -104,6 +106,7 @@ body {
 }
 .bio-header {
     margin-top:80px;
+    margin-bottom:85px;
     border-radius: 50%;
     border: 2px solid #fff!important;
     background-color: rgba(159, 87, 19, .9);
@@ -189,44 +192,31 @@ body {
     background-color: rgb(233, 233, 25, .7);
 }
 
-footer {
-    background-color: transparent;
-    color: #fafafa;
-    min-height: 120px;
-    margin: 0;
-}
-
-body > footer {
- margin:50px;
- padding:20px;
-    
-    
-}
 .social-links {
     padding-bottom: 15px;
-    
+}
+#footer-details > div > ul > li:nth-child(3) > a > i {
+    padding:15px;
 }
 
 .social-links li a i {
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     padding: 12px 0;
     border-radius: 50%;
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #fff;
-    background: rgba(159, 87, 19, .8);
+    color: #fafafa;
+    background: #8f8f8f;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-body > footer > div > h5 {
-    color:#050517;
-}
+
 .social-links li a i:hover {
-    background:rgba(157, 150, 81, .96);
+    background: #9b5016;
 }
 
 #footer-details {
