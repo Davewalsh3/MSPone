@@ -10,8 +10,9 @@
 .carousel-inner,
 .carousel-inner img {
   height: 180px;
-  width: 320px;
-  margin-bottom:50px;
+  width: 350px;
+  margin-bottom:20px;
+  margin:auto;
 }
     
 }
@@ -61,25 +62,42 @@ body {
 }
 
 .jumbotron {
-    background-color: rgba(199, 186, 159, .8);
+    background-color: rgba(154, 147, 35, .66);
     margin-top:175px;
     border: 2px solid #fff!important;;
     padding:10px;
     border-radius: 25%;
 }
+.news-header {
+    margin-top:50px;
+    border-radius: 50%;
+    border: 2px solid #fff!important;
+    background-color: rgba(233, 233, 25, .95);
+}
 .landing {
-     background-color: rgba(233, 233, 25, .7);
+     background-color:rgba(233, 233, 25, .7) ;
      border: 2px solid #fff!important;;
      border-radius: 18%;
+     margin-top:20px;
+     margin-bottom:170px;
 }
+.landing p {
+    padding:20px;
+}
+
 .rounded-corners {
     border-radius: 25%;
     padding-right: 25px;
     border-style: 2px solid #272727!important;
 }
-
+.bio-header {
+    margin-top:50px;
+    border-radius: 50%;
+    border: 2px solid #fff!important;
+    background-color: rgba(159, 87, 19, .9);
+}
 .container-fluid .biographics {
-    background-color: rgba(230, 199, 156, .9)!important;
+    background-color: rgba(159, 87, 19, .8)!important;
     padding: 15px;
     border-radius: 20%;
     margin-top: 25px;
@@ -89,32 +107,37 @@ body {
 
 .biographics {}
 
-#tour h3  {
-    padding:30px;
-    margin-bottom:35px;
-}    
+.live-header {
+    margin-top:150px;
+    margin-bottom:15px;
+    border-radius: 50%;
+    border: 2px solid #fff!important;
+    background-color: rgba(157, 150, 81, .96);
+}
+   
 
 .bg-1 {
     background: rgba(157, 150, 81, .96);
     color: #bdbdbd;
-    margin-top: 150px;
+    margin-bottom:170px;
     border:2px solid #fff;
-    height:50%;
+   
 }
 
 .bg-1 h3 {
     color:#050517;
     border-radius: 10%;
+    padding:15px;
+    margin-bottom:15px;
 }
 
 .bg-1 p {
     font-style: italic;
-    color:#E1E5F2;
-    margin:0;
+    color:#050517;
+    padding:15px;
+    padding-bottom:25px;
 }
-.bg-1 .text-center {
-    color:#00072D;
-}
+
 
 .list-group-item:first-child {
     border-top-right-radius: 0;
