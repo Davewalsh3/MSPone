@@ -45,6 +45,7 @@ body {
     background-image: url('./assets/images/color-swirl.jpg');
     background-repeat: repeat;
     background-attachment: fixed;
+    background-size:cover;
 }
 
 .navbar-brand a {
@@ -185,13 +186,17 @@ body {
     padding:35px;
 }
 .contact-header {
+    padding:15px;
     margin-top:150px;
     margin-bottom:20px;
     border-radius: 50%;
     border: 2px solid #fff!important;
     background-color: rgb(233, 233, 25, .7);
 }
-
+#contact > div{
+    padding:25px;
+    
+}
 .social-links {
     padding-bottom: 15px;
 }
