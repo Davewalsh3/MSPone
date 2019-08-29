@@ -21,60 +21,42 @@ Use this section to provide insight into your UX process, focusing on who this w
 I used the the Balsamiq app for creating my mockup initially. Although the final design changed slightly as I progressed in its creation.
 Link : 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
 Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+This website comprises of a main navbar which allows users to easily navigate the page to different sections. I decided to create the page as one long continous page with links in order to allow a one-directional scroll action to be the only movement required in order to access further sections and content. The navbar is collapsable when minimized for ease of use on mobile devices.
+Bootstrap4 was used in order to utulize a simple grid layout for the website and for the creation of album cover carousel as the main landing feature. 
 
 Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+For the future of the project I would like to implement a subtle animated background feature where the background-swirls image I have used currently, would slowly reveolve on its center point. This would really exaggerate the 60's theme I was going for with this design.
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
+
 Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+I utilized w3 html & css validator online in order to test my code. I found various discrepencies in my work such as incorrent syntax and formatting . My links to fontawesome were flagging also as as vertical sign (|) was stated as 'not being allowed'. I did not find however that the code was affected by this rule, and further attempts to address it by converting the code using url-escape-text did not seem to alleviate the highlighted error.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+My footer links all redirect to Monkees' related social media channels where available, and generic social media channel homepages when unavailable.
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+All links will redirect to the specified content section of the page.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+By clicking on the links in the navbar, the scrollSpy effect will work regardless of whether or not you're viewing the sections in the same order they are listed in the dropdown navbar.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility and responsiveness. During the testing phase, I had my features change position depending on screen size, I added some media queries to counter this. I also at this time fixed my background image in a static positon.
 
 Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This site has been deployed using GitHub pages. The deployed site will update automatically upon new commits to the master branch.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+To run this file locally, you can clone this repository directly into the editor of your choice by pasting git clone https://davewalsh3.github.io/MSPone/ into your terminal.
 
 Credits
 Content
-The text for section Y was copied from the Wikipedia article Z
+Open source content provider Wikipedia is where I sourced some of my block text information relating to the monkees.
+
 Media
-The photos used in this site were obtained from ...
+Images were obtained from Code Institute github repository made available for this project type.
+Additional images were sourced from free image site http://www.rgbstock.com
+
 Acknowledgements
-I received inspiration for this project from X
+Media Queries for various device sizing were implemented from previous Code Institute modules and example designs.
+Bootstrap carousel was added with guidance from youtube creator <Sonar Systems>  https://www.youtube.com/watch?v=n8ItscKLf7s
+
+
+
