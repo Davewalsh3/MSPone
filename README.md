@@ -6,13 +6,20 @@ Band Website - The Monkees
 
 For my first milestone project I chose to create a website for the band The Monkees.
 The band were quite big in the 60's era so I have chosen that theme for aspects of my page including images and colors used.
-Using supplied images, video and audio I compliled a comprehensive website that users can use to interact with the band in the method they choose, whether it be viewing slideshows of previous album art, listening to classic songs, or watching popular youtube videos.
-As the band has been around quite a while , I feel the audience would be an older emographic and it is for this reason I used muted 60s primary colours, and a simple interface so that the website is easily accesible for all users.
+Using supplied images, video and audio I compliled a comprehensive website that users can use to interact with the band in the method they choose, whether it be viewing slideshows of previous album art via automatic transition carousel, viewing a music video or listening to the bands backcatalogue of select songs.
+
+
+As the band has been around quite a while , I feel the audience would be an older demographic and it is for this reason I used muted 60s primary colours, a 60's swirl background imageand a simple interface so that the website is easily accesible for all users.
 
 
 
 UX
+As a user of this site, I want to find all the information I want as a fan, to be located at one location, on one website.
+As a fan my main wants from a website like this are - information on the band, any relevant news and future live shows.
+As a 'potential' fan, I would like some insights into the history of the band, pictures of the members, samples of audio and video and the ability to purchase material from the band website.
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+I used the the Balsamiq app for creating my mockup initially. Although the final design changed slightly as I progressed in its creation.
+Link : 
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
