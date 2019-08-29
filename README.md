@@ -13,7 +13,7 @@ As the band has been around quite a while , I feel the audience would be an olde
 
 
 
-UX
+<h3>UX<h3>
 As a user of this site, I want to find all the information I want as a fan, to be located at one location, on one website.
 As a fan my main wants from a website like this are - information on the band, any relevant news and future live shows.
 As a 'potential' fan, I would like some insights into the history of the band, pictures of the members, samples of audio and video and the ability to purchase material from the band website.
