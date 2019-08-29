@@ -84,6 +84,7 @@ body {
 .news-header {
     margin-top:100px;
     margin-bottom:85px;
+    padding:25px;
     border-radius: 50%;
     border: 2px solid #fff!important;
     background-color: rgba(233, 233, 25, .95);
@@ -106,6 +107,15 @@ body {
     border-radius: 25%;
     padding-right: 25px;
     border-style: 2px solid #272727!important;
+}
+
+.media {
+    margin-top:75px;
+    margin-bottom:85px;
+    padding:25px;
+    border-radius:18%;
+    border: 2px solid #fff!important;
+    background-color: rgba(233, 233, 25, .80);
 }
 .bio-header {
     margin-top:80px;
