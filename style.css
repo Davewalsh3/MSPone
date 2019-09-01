@@ -1,37 +1,39 @@
 /*---Media Queries --*/
 
-@media (min-width: 992px) {
-}
-@media (max-width: 360px) {
-    
-}
+@media (min-width: 992px) {}
+
+@media (max-width: 360px) {}
+
 @media (max-width: 768px) {
     #tour .bg-1 {
-    padding:80px ;
-}
+        padding: 80px;
+    }
 }
 
 @media (max-width: 576px) {
-.carousel-item,
-.carousel-inner,
-.carousel-inner img {
-  height: 180px;
-  width: 350px;
-  margin-bottom:20px;
-  margin:auto;
-}
-    
-}
-@media (max-width: 576px) {
- .jumbotron{
-   margin-top:100px;
-}
+    .carousel-item,
+    .carousel-inner,
+    .carousel-inner img {
+        height: 180px;
+        width: 350px;
+        margin-bottom: 20px;
+        margin: auto;
+    }
 
 }
+
+@media (max-width: 576px) {
+    .jumbotron {
+        margin-top: 100px;
+    }
+
+}
+
 .alert {
     font-family: 'Viga', sans-serif;
-    font-size:16px;
+    font-size: 16px;
 }
+
 #slides {
     text-align: center;
     position: relative;
@@ -39,7 +41,7 @@
 
 
 body {
-    text-align:center;
+    text-align: center;
     margin: 10px;
     font-family: 'Viga', sans-serif;
     color: #02040F!important;
@@ -47,24 +49,26 @@ body {
     background-image: url('./assets/images/color-swirl.jpg');
     background-repeat: repeat;
     background-attachment: fixed;
-    background-size:cover;
+    background-size: cover;
 }
 
 .navbar-brand a {
     font-family: 'Fugaz One', cursive;
-    color:#050517!important;
+    color: #050517!important;
 }
 
 .navbar-custom {
-    color:#050517;
+    color: #050517;
     background-color: rgb(233, 233, 25, .95);
     border-bottom-style: groove;
     border-bottom-color: #2222;
 }
-.carousel-inner img{
-    border-radius:50%;
+
+.carousel-inner img {
+    border-radius: 50%;
     border: 5px solid #E5E9EC;
 }
+
 .carousel-indicators li {
     width: 10px;
     height: 10px;
@@ -74,39 +78,41 @@ body {
 
 .jumbotron {
     font-family: 'Fugaz One', cursive;
-     font-size: 14px;
+    font-size: 14px;
     background-color: rgba(154, 147, 35, .66);
-    margin-top:130px;
-    border: 2px solid #fff!important;;
-    padding:25px;
+    margin-top: 130px;
+    border: 2px solid #fff!important;
+    ;
+    padding: 25px;
     border-radius: 12%;
 }
+
 .news-header {
-    margin-top:100px;
-    margin-bottom:85px;
-    padding:25px;
+    margin-top: 100px;
+    margin-bottom: 85px;
+    padding: 25px;
     border-radius: 50%;
     border: 2px solid #fff!important;
     background-color: rgba(233, 233, 25, .95);
 }
+
 .landing {
-     font-family: 'Viga', sans-serif;
-     font-size: 14px;
-     line-height: 1.42857143;
-     background-color:rgba(233, 233, 25, .7) ;
-     border: 2px solid #fff!important;;
-     border-radius: 5%;
-     margin-top:20px;
-     margin-bottom:170px;
+    font-family: 'Viga', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: rgba(233, 233, 25, .7);
+    border: 2px solid #fff!important;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-bottom: 170px;
 }
+
 .landing p {
-    padding:30px;
+    padding: 30px;
 }
-body > section:nth-child(3) > div.container-fluid.padding > div > div > h4 {
-    padding:15px;
-    text-decoration: underline;
-    color:#2c3e50;
-}
+
+
+
 
 .rounded-corners {
     border-radius: 25%;
@@ -114,112 +120,159 @@ body > section:nth-child(3) > div.container-fluid.padding > div > div > h4 {
     border-style: 2px solid #272727!important;
 }
 
-.media {
-    margin-top:75px;
-    margin-bottom:85px;
-    padding:25px;
-    border-radius:18%;
+#music {
+    width:100%;
+    margin-top: 75px;
+    margin-bottom: 85px;
+    padding: 25px;
+    border-radius: 18%;
     border: 2px solid #fff!important;
-    background-color: rgba(233, 233, 25, .80);
+    background-color: rgba(2, 4, 15, .80);
 }
+
+
+#playlist,
+audio {
+    list-style: none;
+    padding: 40px;
+    background-color: rgba(2, 3,15, 1);
+    border:5px solid #fff;
+    width:100%;
+    border-radius:15%;
+    
+}
+#playlist > div > button {
+    margin:20px;
+}
+#playlist, h4, h2 {
+    text-decoration: underline;
+    color:#fff;
+}
+.active a {
+    color: #5DB0E6;
+    text-decoration: none;
+    
+
+}
+
+li a {
+    color: #eeeedd;
+    padding: 12px;
+
+}
+
+li a:hover {
+    text-decoration: none;
+
+}
+
 .bio-header {
-    margin-top:80px;
-    margin-bottom:85px;
+    margin-top: 80px;
+    margin-bottom: 85px;
     border-radius: 50%;
     border: 2px solid #fff!important;
     background-color: rgba(159, 87, 19, .9);
 }
+
 .biographics {
     background-color: rgba(159, 87, 19, .8)!important;
     padding: 15px;
     border-radius: 5%;
     margin-top: 25px;
-    margin-bottom:80px;
+    margin-bottom: 80px;
     border: 2px solid #fff!important;
-    /*----background-color:rgb(227, 218, 36, .5)!important;---*/
+  
 }
 
 .biographics {}
-#tour > div > ul {
-    padding:30px;
+
+#tour>div>ul {
+    padding: 30px;
 }
+
 .live-header {
-    margin-top:150px;
-    margin-bottom:35px;
+    margin-top: 150px;
+    margin-bottom: 35px;
     border-radius: 50%;
     border: 2px solid #fff!important;
     background-color: rgba(157, 150, 81, .96);
 }
- 
-  
+
+
 
 .bg-1 {
     background: rgba(157, 150, 81, .96);
     color: #bdbdbd;
-    margin-bottom:170px;
-    border:2px solid #fff;
-   
+    margin-bottom: 170px;
+    border: 2px solid #fff;
+
 }
 
 .bg-1 h3 {
-    color:#050517;
+    color: #050517;
     border-radius: 5%;
-    padding:15px;
-    margin-bottom:15px;
+    padding: 15px;
+    margin-bottom: 15px;
 }
 
 .bg-1 p {
     font-style: italic;
-    color:#050517;
-    padding:25px;
-    padding-bottom:25px;
+    color: #050517;
+    padding: 25px;
+    padding-bottom: 25px;
 }
 
 
 .list-group-item:first-child {
     border-top-right-radius: 0;
     border-top-left-radius: 0;
-   
+
 }
 
 .list-group-item:last-child {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
-    
-    
-    
-}
-.list-group .list-group-item  {
-    margin-bottom:20px;
-    color:#686963;
+
+
+
 }
 
-#contact    {
+.list-group .list-group-item {
+    margin-bottom: 20px;
+    color: #686963;
+}
 
-    margin-top:30px;
-    background-color:rgb(233, 233, 25, .7) ;
-    border:2px solid #fff;
+#contact {
+
+    margin-top: 30px;
+    background-color: rgb(233, 233, 25, .7);
+    border: 2px solid #fff;
 }
-#contact > h3 {
-    padding:35px;
+
+#contact>h3 {
+    padding: 35px;
 }
+
 .contact-header {
-    padding:15px;
-    margin-top:150px;
-    margin-bottom:20px;
+    padding: 15px;
+    margin-top: 150px;
+    margin-bottom: 20px;
     border-radius: 50%;
     border: 2px solid #fff!important;
     background-color: rgb(233, 233, 25, .7);
 }
-#contact > div{
-    padding:25px;
-    
+
+#contact>div {
+    padding: 25px;
+
 }
+
 .social-links {
     padding-bottom: 15px;
 }
-#footer-details > div > ul > li:nth-child(3) > a > i {
-    padding:15px;
+
+#footer-details>div>ul>li:nth-child(3)>a>i {
+    padding: 15px;
 }
 
 .social-links li a i {
