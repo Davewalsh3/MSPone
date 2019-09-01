@@ -32,6 +32,7 @@ I would also like to further develop the store section of the website and enhanc
 
 <h3> Problems Encountered </h3>
 I was unable to load video to html code, so instead I embedded a youtube video in its place.
+I was unable to deploy in safari.
 <h3>Testing</h3>
 
 I utilized w3 html & css validator online in order to test my code. I found various discrepencies in my work such as incorrent syntax and formatting . My links to fontawesome were flagging also as as vertical sign (|) was stated as 'not being allowed'. I did not find however that the code was affected by this rule, and further attempts to address it by converting the code using url-escape-text did not seem to alleviate the highlighted error.
