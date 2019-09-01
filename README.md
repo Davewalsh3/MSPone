@@ -1,5 +1,5 @@
 
-# MSPone
+# MilestoneProjectOne
 
  GitHub pages link:https://davewalsh3.github.io/MSPone/.
 Band Website - The Monkees
