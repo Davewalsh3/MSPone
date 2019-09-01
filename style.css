@@ -1,8 +1,6 @@
-/*---Media Queries --*/
 
 @media (min-width: 992px) {}
 
-@media (max-width: 360px) {}
 
 @media (max-width: 768px) {
     #tour .bg-1 {
@@ -21,13 +19,12 @@
     }
 
 }
-
 @media (max-width: 576px) {
-    .jumbotron {
-        margin-top: 100px;
-    }
-
+body > section:nth-child(4) > div > div {
+    margin-top:117px;
 }
+}
+
 
 .alert {
     font-family: 'Viga', sans-serif;
@@ -86,8 +83,11 @@ body {
     padding: 25px;
     border-radius: 12%;
 }
-
+#news > div.container.padding > div > div > h2 {
+    color:#222222;
+}
 .news-header {
+    
     margin-top: 100px;
     margin-bottom: 85px;
     padding: 25px;
@@ -106,13 +106,19 @@ body {
     margin-top: 20px;
     margin-bottom: 170px;
 }
-
-.landing p {
-    padding: 30px;
+#news > div.container-fluid.padding > div > div > button {
+    margin:25px;
 }
 
 
 
+#news > div.container-fluid.padding > div > div > h4 {
+    margin:15px;
+    color:#222222;
+}
+.landing p {
+    padding: 30px;
+}
 
 .rounded-corners {
     border-radius: 25%;
@@ -127,7 +133,7 @@ body {
     padding: 25px;
     border-radius: 18%;
     border: 2px solid #fff!important;
-    background-color: rgba(2, 4, 15, .80);
+    background-color: rgba(2, 4, 15, .9);
 }
 
 
