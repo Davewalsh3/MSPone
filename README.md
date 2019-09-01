@@ -20,6 +20,7 @@ As a fan my main wants from a website like this are - information on the band, a
 As a 'potential' fan, I would like some insights into the history of the band, pictures of the members, samples of audio and video and the ability to purchase material from the band website.
 I used the the Balsamiq app for creating my mockup initially. Although the final design changed slightly as I progressed in its creation.
 Link : https://github.com/Davewalsh3/MSPone/tree/master/assets/wireframes 
+(Requires Balsamiq Application & Zip Software to extract and run)
 
 <h3>Features</h3>
 This website comprises of a main navbar which allows users to easily navigate the page to different sections. I decided to create the page as one long continous page with links in order to allow a one-directional scroll action to be the only movement required in order to access further sections and content. The navbar is collapsable when minimized for ease of use on mobile devices.
