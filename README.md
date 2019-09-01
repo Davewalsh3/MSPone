@@ -44,26 +44,26 @@ By clicking on the links in the navbar you will be redirected to content of the 
 
 This site was tested for responsiveness on all the most popular browsers (Chrome, Safari, Internet Explorer, FireFox) and on mobile devices such as samsung s5, iphone 6/7/8/x ipad pro and onto larger screens. During the testing phase, I had my features change position depending on screen size, I added some media queries to counter this. I also at this time fixed my background image in a static positon.
 
-Deployment
+<h3>Deployment</h3>
 This site has been deployed using GitHub pages. The deployed site will update automatically upon new commits to the master branch.
 
 To run this file locally, you can clone this repository directly into the editor of your choice by pasting git clone https://davewalsh3.github.io/MSPone/ into your terminal.
 
-Credits
+<h3>Credits</h3>
 Content
 Open source content provider Wikipedia is where I sourced some of my block text information relating to the monkees.
 Last Rose Studios for the audio player and playlist code.
 w3 online code validator.
 
 
-Media
+<h3>Media</h3>
 Images were obtained from Code Institute github repository made available for this project type.
 Additional images were sourced from free image site http://www.rgbstock.com
 Official monkees youtube channel for Video.
 colors: https://www.coolers.co
         Flat UI pallette V1
 
-Acknowledgements
+<h3>Acknowledgements<h3>
 Media Queries for various device sizing were implemented from previous Code Institute modules and example designs.
 Bootstrap carousel was added with guidance from youtube creator <Sonar Systems>  https://www.youtube.com/watch?v=n8ItscKLf7s
  W3 Schools code used .
