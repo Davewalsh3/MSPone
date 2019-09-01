@@ -1,7 +1,7 @@
 
 # MilestoneProjectOne
 
- GitHub pages link:https://davewalsh3.github.io/MSPone/#music.
+ GitHub pages link:https://davewalsh3.github.io/MSPone/.
 Band Website - The Monkees
 
 For my first milestone project I chose to create a website for the band The Monkees.
