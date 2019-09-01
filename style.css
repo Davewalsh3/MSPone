@@ -17,11 +17,23 @@
         margin-bottom: 20px;
         margin: auto;
     }
+    
 
 }
 @media (max-width: 576px) {
 body > section:nth-child(4) > div > div {
     margin-top:117px;
+}
+body {
+    text-align: center;
+    margin: 10px;
+    font-family: 'Viga', sans-serif;
+    color: #02040F!important;
+    background-color: #E6C79C;
+    background-image: url('./assets/images/color-swirl.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 }
 
