@@ -42,7 +42,7 @@ All links will redirect to the specified content section of the page, or free-to
 
 By clicking on the links in the navbar you will be redirected to content of the page titled in the nav. this makes aceess to desired content instant and intuitive.
 
-This site was tested for responsiveness on all the most popular browsers (Chrome, Safari, Internet Explorer, FireFox) and on mobile devices such as samsung s5, iphone 6/7/8/x ipad pro and onto larger screens. During the testing phase, I had my features change position depending on screen size, I added some media queries to counter this. I also at this time fixed my background image in a static positon.
+This site was tested for responsiveness on all the most popular browsers (Chrome, Internet Explorer, FireFox, though I was unable to load on Safari due to "not being able to establish secure connection") and on mobile devices such as samsung s5, iphone 6/7/8/x ipad pro and onto larger screens. During the testing phase, I had my features change position depending on screen size, I added some media queries to counter this. I also at this time fixed my background image in a static positon.
 
 <h3>Deployment</h3>
 This site has been deployed using GitHub pages. The deployed site will update automatically upon new commits to the master branch.
