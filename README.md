@@ -63,7 +63,7 @@ Official monkees youtube channel for Video.
 colors: https://www.coolers.co
         Flat UI pallette V1
 
-<h3>Acknowledgements<h3>
+<h3>Acknowledgements</h3>
 Media Queries for various device sizing were implemented from previous Code Institute modules and example designs.
 Bootstrap carousel was added with guidance from youtube creator <Sonar Systems>  https://www.youtube.com/watch?v=n8ItscKLf7s
  W3 Schools code used .
