@@ -27,6 +27,7 @@ Bootstrap4 was used in order to utulize a simple grid layout for the website and
 
 <h3>Features Left to Implement</h3>
 For the future of the project I would like to implement a subtle animated background feature where the background-swirls image I have used currently, would slowly reveolve on its center point. This would really exaggerate the 60's theme I was going for with this design.
+I would also like to further develop the store section of the website.
 
 
 <h3>Testing</h3>
