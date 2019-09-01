@@ -136,6 +136,10 @@ body {
     background-color: rgba(2, 4, 15, .9);
 }
 
+#music > div > div.container-fluid > div > h4{
+    margin:auto;
+    text-align: center;
+}
 
 #playlist,
 audio {
