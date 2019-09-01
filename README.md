@@ -1,7 +1,7 @@
 
 # MilestoneProjectOne
 
- GitHub pages link:https://davewalsh3.github.io/MSPone/.
+ GitHub pages link:https://davewalsh3.github.io/MSPone/#music.
 Band Website - The Monkees
 
 For my first milestone project I chose to create a website for the band The Monkees.
@@ -30,7 +30,8 @@ Bootstrap4 was used in order to utulize a simple grid layout for the website and
 For the future of the project I would like to implement a subtle animated background feature where the background-swirls image I have used currently, would slowly reveolve on its center point. This would really exaggerate the 60's theme I was going for with this design.
 I would also like to further develop the store section of the website and enhance the audio player with JQuery.
 
-
+<h3> Problems Encountered </h3>
+I was unable to load video to html code, so instead I embedded a youtube video in its place.
 <h3>Testing</h3>
 
 I utilized w3 html & css validator online in order to test my code. I found various discrepencies in my work such as incorrent syntax and formatting . My links to fontawesome were flagging also as as vertical sign (|) was stated as 'not being allowed'. I did not find however that the code was affected by this rule, and further attempts to address it by converting the code using url-escape-text did not seem to alleviate the highlighted error.
