@@ -59,6 +59,7 @@ This project was created in an AWS CLoud 9 environment following its transition 
 This site has been deployed using GitHub pages. The deployed site will update automatically upon new commits to the master branch.
 In order to run this code please paste the index.html style.css and assets/ folder to your IDE.
 To run this file locally, you can clone this repository directly into the editor of your choice by pasting git clone https://davewalsh3.github.io/MSPone/ into your terminal.
+Note that there are no differences between the deployed version and the development version currently.
 
 
 <h3>Credits</h3>
