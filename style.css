@@ -1,11 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
-
-
-@media (min-width: 992px) {}
-
-
+/*----media queries---*/
 @media (max-width: 768px) {
     #tour .bg-1 {
         padding: 80px;
@@ -24,6 +20,7 @@ html {
 body > section:nth-child(4) > div > div {
     margin-top:117px;
 }
+
 body {
     text-align: center;
     margin: 10px;
@@ -36,9 +33,9 @@ body {
     background-size: cover;
 }
 }
+/*------end of media queries----*/
 
-
-
+/*-----site wide alert-----*/
 .alert {
     font-family: 'Viga', sans-serif;
     font-size: 16px;
@@ -46,12 +43,7 @@ body {
     padding-top:10px;
     padding-bottom:0px;
 }
-
-#slides {
-    text-align: center;
-    position: relative;
-}
-
+/*------------------body---*/
 
 body {
     text-align: center;
@@ -64,7 +56,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
-
+/*---Navbar---*/
 .navbar-brand a {
     font-family: 'Fugaz One', cursive;
     color: #050517!important;
@@ -76,7 +68,12 @@ body {
     border-bottom-style: groove;
     border-bottom-color: #2222;
 }
+/*----------Carousel----------*/
 
+#slides {
+    text-align: center;
+    position: relative;
+}
 .carousel-inner img {
     border-radius: 50%;
     border: 5px solid #E5E9EC;
@@ -86,9 +83,9 @@ body {
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    border-color: #22222
+    border-color: #22222;
 }
-
+/*--------Jumbotron----*/
 .jumbotron {
     font-family: 'Fugaz One', cursive;
     font-size: 14px;
@@ -99,6 +96,7 @@ body {
     padding: 25px;
     border-radius: 12%;
 }
+/*------News section----*/
 #news > div.container.padding > div > div > h2 {
     color:#222222;
 }
@@ -141,7 +139,7 @@ body {
     padding-right: 25px;
     border-style: 2px solid #272727!important;
 }
-
+/*-----Music section-----*/
 #music {
     width:100%;
     margin-top: 75px;
@@ -191,7 +189,7 @@ li a:hover {
     text-decoration: none;
 
 }
-
+/*-----Biographics----*/
 .bio-header {
     margin-top: 80px;
     margin-bottom: 85px;
@@ -215,7 +213,7 @@ li a:hover {
 #tour>div>ul {
     padding: 30px;
 }
-
+/*----Live Dates section ---*/
 .live-header {
     margin-top: 150px;
     margin-bottom: 35px;
@@ -267,7 +265,7 @@ li a:hover {
     margin-bottom: 20px;
     color: #686963;
 }
-
+/*----Contact section----*/
 #contact {
 
     margin-top: 30px;
@@ -292,7 +290,7 @@ li a:hover {
     padding: 25px;
 
 }
-
+/*-----Footer---*/
 .social-links {
     padding-bottom: 15px;
 }
@@ -325,15 +323,3 @@ li a:hover {
     padding: 50px;
 }
 
-/*
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
