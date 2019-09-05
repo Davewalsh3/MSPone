@@ -1,7 +1,8 @@
-
 html {
   scroll-behavior: smooth;
 }
+
+
 @media (min-width: 992px) {}
 
 
@@ -15,13 +16,9 @@ html {
     .carousel-item,
     .carousel-inner,
     .carousel-inner img {
-        height: 180px;
-        width: 350px;
-        margin-bottom: 20px;
-        margin: auto;
+        display:none;
     }
     
-
 }
 @media (max-width: 576px) {
 body > section:nth-child(4) > div > div {
@@ -41,9 +38,13 @@ body {
 }
 
 
+
 .alert {
     font-family: 'Viga', sans-serif;
     font-size: 16px;
+    margin-top: 50px;
+    padding-top:10px;
+    padding-bottom:0px;
 }
 
 #slides {
@@ -327,16 +328,12 @@ li a:hover {
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
-
 Small (sm) devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }
-
 Medium (md) devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
-
 Large (lg) devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }
-
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
