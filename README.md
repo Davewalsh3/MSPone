@@ -34,6 +34,8 @@ Social Channels are the only feature of the footer element. There are familiar s
 For the future of the project I would like to implement a subtle animated background feature where the background-swirls image I have used currently, would slowly reveolve on its center point. This would really exaggerate the 60's theme I was going for with this design.
 I would also like to further develop the store section of the website and enhance the audio player with JQuery.
 
+While not stricly affecting the performance of the website , I learned that my commits to github were not titled as specificly as I would intend. While the majority inform as to the fix applied in the commit, there are some general terms i.e 'fixes, updates etc' used in git commmit messages.  This would be off nuisence to potential collaborators who would be unable to discern specific information from commits. For future new projects this will be kept in mind in oder to present a concise history of work.
+
 <h3> Problems Encountered </h3>
 I was unable to load video to html code, so instead I embedded a youtube video in its place.
 I was unable to test in safari as I could not access github through that Browser, from thorough testing using devtools on Google Chrome I reached a funtional level of expected responsiveness from iOS phone screen types.
